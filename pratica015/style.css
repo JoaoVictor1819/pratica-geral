@@ -1,0 +1,50 @@
+@charset "UTF_8";
+
+body{
+    background-image: linear-gradient(to right, #99B684, #668752b4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #518e26;
+    text-align: center;
+}
+h2{
+text-align: center;
+}
+div{
+    color: #518e26;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid;
+    height: 40px;
+    width: 200px;
+}
+#titulo{
+background-color: aliceblue;
+}
+#dicas{
+background-color: #99B684;
+box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.219);
+}
+
+.primeira{
+    font-size: 2em;
+    background-color: aliceblue;
+    position: absolute;
+    top: auto;
+    left: 600px;
+    width: 500px;
+    padding: 10px;
+
+}
+.segunda{
+    font-size: 2em;
+    background-color: aliceblue;
+     background-color: aliceblue;
+    position: absolute;
+    top: auto;
+    left: 59px;
+    width: 500px;
+    padding: 10px;
+}
+

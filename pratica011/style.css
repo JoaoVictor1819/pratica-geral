@@ -1,0 +1,79 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Patrick+Hand&family=Rubik+Doodle+Shadow&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Patrick+Hand&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+@font-face{
+    font-family:'meufonte';
+  src: url(midia/Dalmation-FREE.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    font-family: Arial, sans-serif
+}
+body{
+    font-family: "Patrick Hand", cursive;;
+    background-image:url(midia/imagens/5590457.jpg);
+    line-height: 1.6;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+main{
+    
+    background-color: #ffffff88;
+    border-radius: 20px;
+    box-shadow:4px 6px 40px #1d2c34;
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+
+
+}
+h1{
+    font-family: "Rubik Doodle Shadow", system-ui;
+    text-shadow:1px 1px 10px #643defb4;
+
+}
+h2{
+    color: rgb(34, 45, 54);
+    font-family: 'meufonte';
+    text-shadow:1px 1px 10px #1e1c28c0;
+    font-weight: 100;
+    font-size: 3em;
+    
+  
+
+}
+h3{
+    font-family: 'meufonte';
+  font-weight: 500;
+  font-size: 4em;
+}
+p{
+    font-family: "Patrick Hand", cursive;
+    font-size: 20px;
+    font-weight: 600;
+  text-shadow: #7c5cf1;
+  color: #413d3d;
+  margin: 50px;
+  }
+  ul{
+    text-shadow:1px 1px 10px #0F1A20;
+    text-align: justify;
+    background-color: #0F1A20;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px  #191624;
+    margin: 40px;
+    margin: initial;
+  }
+  li{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 2em;
+  }
+img{
+justify-content: left;
+}
+ 
