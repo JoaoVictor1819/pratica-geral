@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+}
+html, body{
+    min-height: 10vh;
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-image: url('imagens/pexels-darshan394-1173777.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #4caf4fd2;
+    text-align: center;
+    padding: 9%;
+    margin: auto;
+    border: 4vh solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+header h1{
+    margin-bottom: 19px;
+    font-size: 2.4em;
+   color: white;
+}
+header p{
+   font-size: 1.2em;
+   color: white;
+}
+section{
+
+}
+section > p{
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    line-height: 1.6;
+    text-align: left;
+    padding-left: 20px;
+}
+.normal{
+   width: 100%;
+}   
+.imagens{
+    padding: 5px;
+    background-color: lightgray;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.477);
+}
+.imagens > img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#img01{
+    background-image: url('imagens/pexels-alena-koval-233944-886521.jpg');
+    background-size: cover;
+}
+#img02{
+    background-image: url('imagens/pexels-joao-mira-2150881975-31413473.jpg');
+    background-position:  center;
+    background-size: cover;
+}
+#japa{
+    color: white;
+}
+
+
