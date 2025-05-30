@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --fonte1:
+    --fonte2:
+    --fonte3:
+}
+body{
+    background-image: url('imagens/pexels-joaojesusdesign-925743.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
