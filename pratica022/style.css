@@ -10,8 +10,101 @@
     --fonte3:
 }
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-image: url('imagens/pexels-joaojesusdesign-925743.jpg');
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
+  
     background-repeat: no-repeat;
+}
+img{
+    width: 150px;
+    height: 150px;
+   border-radius: 50%;
+   border: 3px solid black;
+   box-shadow: 2px 3px 5px black;
+}
+.img1{
+    padding: 50px;
+    text-align: center;
+}
+#eu{
+    text-align: center;
+    padding-bottom: 20px;
+    margin: -20px;
+}
+nav{
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.658);
+    background-color: rgba(0, 0, 0, 0.449);
+    display: block;
+    padding: 10px;
+    margin: 20px auto;
+   max-height: 20px;
+    text-align: center;
+    width: 408px;
+    border-radius: 20px ;
+}
+nav a{
+    text-decoration: none;
+    text-shadow: 2px 3px 4px black;
+    color: white;
+    margin: 16px;
+}
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.422);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+nav a:active{
+    color: rgba(0, 0, 0, 0.411);
+}
+main{
+    padding: 20px;
+}
+main > h1{
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.479);
+}
+main > h2{
+    padding-top: 20px;
+    text-align: center;
+}
+main > p{
+    padding: 20px;
+    text-align: justify;
+}
+footer{
+    display:flex;
+    border-radius: 20px;
+    text-align: center;
+    text-align: center;
+    width: 500px;
+    height: 80px;
+    margin: 20px auto;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.social{
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+}
+.social:hover{
+    margin: -10px;
+    border-radius: 20px;
+    background-color: gray;
+    transition: 0.5s;
+}
+.social:active{
+    color: black;
+    text-decoration: underline;
+}
+.social > img{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}
+footer p{
+   margin-top: -20px;
 }
