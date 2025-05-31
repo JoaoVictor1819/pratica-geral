@@ -69,10 +69,12 @@ main > h1{
 main > h2{
     padding-top: 20px;
     text-align: center;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.553);
 }
 main > p{
     padding: 20px;
     text-align: justify;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.46);
 }
 footer{
     display:flex;
