@@ -64,6 +64,10 @@ header p{
 main{
   padding-top: 30px;
 }
-main > p{
-
+main  p{
+    text-align: justify;
+    font-size: 1.2em;
+}
+.img1{
+   background-image: url('imgens/pexels-olia-danilevich-9004736.jpg');
 }
