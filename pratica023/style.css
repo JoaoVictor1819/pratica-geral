@@ -12,6 +12,7 @@
 }
 body{
    background-color: rgba(211, 211, 211, 0.512);
+   font-family: Arial, Helvetica, sans-serif;
 }
 nav{
     display: block;
@@ -49,6 +50,7 @@ header{
     box-shadow: inset 0 0 10px rgba(26, 25, 25, 0.574);
 }
 header h1{
+  
     text-shadow: 2px 3px 4px  rgba(0, 0, 0, 0.686);
     font-size: 3.5em;
     color: white;
@@ -60,14 +62,59 @@ header p{
     padding-top: 20px;
     color: white;
     text-align: center;
+   
 }
-main{
-  padding-top: 30px;
+
+section{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: #f0f0f0;
+   padding: 20px;
+
 }
-main  p{
+section > h2{
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.548);
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.729);
+    text-align: center;
+  height: 400px;
+}
+section > p{
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.395);
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
     text-align: justify;
-    font-size: 1.2em;
+    width: 500px;
+    
 }
-.img1{
-   background-image: url('imgens/pexels-olia-danilevich-9004736.jpg');
+.normal{
+  
+}
+.normal p{
+    width: 400px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.652);
+ 
+}
+.normal h1{
+    color: rgba(80, 77, 77, 0.485);
+    font-size: 2.2em;
+    height: 200px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.imagens{
+      width: 100%;
+      background-size: cover;
+      background-attachment: fixed;
+}
+#img{
+    background-image: url('imgens/pexels-olia-danilevich-9004736.jpg');
+    background-position: center;
+    background-size: cover;
 }
