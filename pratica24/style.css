@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    background-color: rgba(173, 166, 166, 0.26);
+}
+header{
+    background-image: url(imagens/pexels-harriet-b-392993362-31008200.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(114, 113, 113);
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.501);
+    width: 100vw;
+    height: 400px;
+}
+header > h1{
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    font-size: 3em;
+   color: white;
+   text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.395);
+}
+header > nav{
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.34);
+    background-color: rgba(128, 128, 128, 0.175);
+    width: 311px;
+    border-radius: 20px;
+    padding-top: 7px;
+    padding-bottom: 2px;
+    margin: auto;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    padding-right: 20px;
+    height: 100px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.nave:hover{
+    background-color: rgba(255, 255, 255, 0.422);
+    padding: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: 2px solid rgba(91, 89, 89, 0.482);
+}
+.nave:active{
+    background-color: rgba(29, 27, 27, 0.389);
+    color: rgba(128, 128, 128, 0.395);
+}
