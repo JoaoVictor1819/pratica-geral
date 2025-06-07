@@ -1,6 +1,23 @@
 @charset "UTF-8";
 
 
+
+
+
+:root{
+    --cor1: #F2F2F2;
+    --cor2: #D90404;
+    --cor3: #404040;
+
+
+     --fonte1:
+     --fonte2:
+     --fonte3:
+}
+
+
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -28,36 +45,63 @@ header > h1{
    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.395);
 }
 header > nav{
-    display: block;
-    text-align: center;
+    display: inline-block;
+    text-align: right;
     padding-top: 50px;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.34);
-    background-color: rgba(128, 128, 128, 0.175);
-    width: 311px;
-    border-radius: 20px;
+    background-color: rgb(162, 158, 158);
+    width: 100vw;
     padding-top: 7px;
     padding-bottom: 2px;
     margin: auto;
 }
-nav > a{
+nav > ul{
+     list-style-type: none;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
     text-decoration: none;
     color: white;
-    padding-right: 20px;
-    padding-right: 20px;
-    height: 100px;
-    font-size: 1.2em;
-    font-weight: bold;
 }
-.nave:hover{
-    background-color: rgba(255, 255, 255, 0.422);
-    padding: 10px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    border-radius: 10px;
+.nav:hover{
     transition: 0.5s;
-    border: 2px solid rgba(91, 89, 89, 0.482);
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.307);
 }
-.nave:active{
-    background-color: rgba(29, 27, 27, 0.389);
-    color: rgba(128, 128, 128, 0.395);
+.nav:active{
+    color: var(--cor3);
+}
+.sepa{
+    display: block;
+   background-image: linear-gradient(to right, var(--cor1), var(--cor3) );
+   margin-top: 170px;
+}
+#card{
+    font-weight: bold;
+    text-align: center;
+    color:rgba(78, 75, 75, 0.945);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.466);
+}
+#card:hover{
+    transition: 0.5s;
+    font-size: 1.1em;
+    color: white;
+}
+.inicial{
+
+}
+.meio{
+
+}
+
+.fin{
+
 }
